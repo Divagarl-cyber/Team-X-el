@@ -44,7 +44,88 @@ body#forms{
     min-height: 100%;
     font-family: "roboto";
   }
-div#login, div#signup{
+
+  
+.container {
+  
+  width: 100%;
+  height: 100%;
+  background-size: 200%;
+}
+
+.container span.fa {
+  font-size: 80px;
+}
+
+#login-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 #fff;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 8% auto 0;
+  text-align: center;
+  position: relative;
+}
+
+#signup-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 #fff;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 8% auto 0;
+  text-align: center;
+  position: relative;
+}
+
+
+#login-form h5 {
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.form-block {
+  
+  position: relative;
+  
+}
+
+span .fa {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+
+}
+
+.form-block input {
+  width: 250px;
+  height: 45px;
+  background: rgba(238, 235, 235, 0.808);
+  border: 0px;
+  outline: none;
+  color: #333;
+  box-shadow: inset 0 0 8px #fff;
+
+}
+
+
+.input-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 100%;
+  border: 2px solid black;
+  outline: none;
+
+}
+
+
+
+/*div#login, div#signup{
     z-index: -1;
     width: 25%;
     height: 65vh;
@@ -64,7 +145,7 @@ div#login, div#signup{
       background: rgba(41, 96, 164, 0.959);
      
   }
-
+/*
   #form input{
     display: block;
     box-sizing: border-box;
@@ -88,7 +169,7 @@ div#login, div#signup{
   div#header{
       padding-top: 65px;
       margin-bottom: 20px;
-  }
+  }*/
 
   @media screen and (max-width: 1000px){
     div#login, div#signup{
