@@ -12,11 +12,36 @@ body{
 
 }
 
+.content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+ 
 .fixed-top{
     color: cyan;
     background: #1f1a1ab5;
 }
-
 .navbar-brand span{
     font-size: 1.2em;
     font-weight: bold; 
@@ -51,6 +76,7 @@ div#login, div#signup{
     background: #fff;
     margin: 20vh auto;
     text-align: center;
+    border-radius: 20px;
     
   }
   div#user-font{
@@ -86,7 +112,7 @@ div#login, div#signup{
   }
 
   div#header{
-      padding-top: 65px;
+      padding-top: 30px;
       margin-bottom: 20px;
   }
 
@@ -101,16 +127,3 @@ div#login, div#signup{
         width: 55%;
         }
     }
-
-div#signup{
-        display: none;
-}
-
-img {
-    top: 80px;
-    right: 630px;
-    width: 90px;
-    position: fixed;
-    margin: auto auto;
-}
-
