@@ -1,4 +1,4 @@
-  
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,38 +33,24 @@
             </div>
           
          </nav>
+   
     <div id="login">
-        <img src="https://res.cloudinary.com/charlene04/image/upload/v1568851785/1014-512_uda4mj.png" alt="User icon">
       <div  id="header">
           <h2>User Log in</h2>
-          <p>Not a member? Please <a href="#" id="signup-link">sign up</a> now </p>
-          <form action="" method="POST" id="form">
+          <p>Not a Registered? <a href="register.php" id="signup-link">sign up</a> now </p>
+          <form action="login.php" method="POST" id="form">
+          <?php include('errors.php'); ?>
             <input type="text" name="username" placeholder="User ID">
-            <input type="password" name="pword" placeholder="********">
-            <input type="submit" value="LOGIN">
+            <input type="password" name="password" placeholder="********">
+            <input type="submit" value="LOGIN" name="login_user">
     
           </form>
       </div>
-      <p>Forgot <a href="">password</a>? </p>
+      <p>Forgot <a href="#">password</a>? </p>
       
     </div>
-    <div id="signup">
-      <img src="https://res.cloudinary.com/charlene04/image/upload/v1568851785/1014-512_uda4mj.png" alt="User icon">
-        <div  id="header">
-            <h2>Create an account</h2>
-        
-            <form action="" method="POST" id="form">
-              <input type="text" name="username" placeholder="User ID"  >
-              <input type="email" name="email" placeholder="Email Address">
-              <input type="password" name="pword" placeholder="********">
-              <input type="submit" value="REGISTER">
-      
-            </form>
-        </div>
-        <p>Already a member? <a href="#" id="login-link">Login</a></p>
-        
-      </div>
-      
+    
+       
 <script type="text/javascript" src="jquery-2.1.4.js"></script>
 <script type="text/javascript" src="bootstrap.js"></script>
   <script type="text/javascript" src="script.js"></script>
