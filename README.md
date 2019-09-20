@@ -1,6 +1,6 @@
 # Team-X-el
-https://lucid.blog/aodeigah26/post/team-x-el-tutors-on-login-page-505
+https://lucid.blog/aodeigah26/post/team-x-el-tutors-f8e
 
 
 
-http://excel10.000webhostapp.com/login.php
+http://teamxcel.000webhostapp.com/
